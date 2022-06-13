@@ -1,0 +1,724 @@
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ date
+Tue May 17 01:04:18 UTC 2022
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ ls
+PROBLEM.md  Project_Data​  README.md  myFile
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ pwd
+/home/ubuntu/Desktop/repos/pc1-working-with-linux
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ touch testFile
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ cat
+testFile
+testFile
+^C
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ man nano
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ 
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ history
+    1  clear
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  clear
+    5  sudo apt update
+    6  sudo apt install xubuntu-desktop
+    7  sudo apt-get update
+    8  sudo apt-get upgrade
+    9  clear
+   10  sudo apt-get install xrdp
+   11  sudo systemtcl start xrdp
+   12  sudo service xrdp start
+   13  sudo service xrdp enable
+   14  clear
+   15  sudo reboot
+   16  clear
+   17  sudo service xrdp status
+   18  clear
+   19  sudo service xrdp stop
+   20  ls /etc/xrdp
+   21  sudoedit /etc/xrdp startwm.sh
+   22  sudo nano /etc/xrdp startwm.sh
+   23  sudoedit /etc/xrdp/startwm.sh
+   24  sudo service xrdp restart
+   25  exit
+   26  clear
+   27  sudo dpkg --configure -a
+   28  sudo update-alternatives --config puthon3
+   29  sudo update-alternatives --config python3
+   30  sudo apt install gnome-terminal
+   31  gnome-terminal
+   32  clear
+   33  sudoedit /etc/xrdp/startwm.sh
+   34  sudo service xrdp restart
+   35  sudo update-alternatives --config x-session-manager
+   36  sudo service xrdp restart
+   37  clear
+   38  sudoedit /etc/xrdp/startwm.sh 
+   39  sudo service xrdp restart
+   40  sudoedit /etc/xrdp/startwm.sh 
+   41  sudo service xrdp restart
+   42  sudo update-alternatives --config x-session-manager
+   43  sudo service xrdp restart
+   44  exit
+   45  cd ~
+   46  df -h
+   47  sudo apt-get remove thundebird
+   48  sudo apt-get remove thunderbird
+   49  clear
+   50  sudo apt-get autoremove
+   51  free-mh
+   52  free -mh
+   53  clear cpu
+   54  clear
+   55  lscpu
+   56  clear
+   57  sudo adduser mentor
+   58  clear
+   59  cd ~
+   60  sudoedit /etc/xrdp/sesman.ini
+   61  sudo umount thinclient_drives
+   62  sudo umount -f thinclient_drives
+   63  exit
+   64  sudo rm -r thinclient_drives/
+   65  sudoedit /etc/xrdp/sesman.ini
+   66  cd ~
+   67  sudo rm -rf \tmp\thinclient_drives
+   68  sudo rm -rf \tmp\thinclient_drives\
+   69  sudoedit /etc/xrdp/sesman.ini
+   70  ls -al
+   71  exit
+   72  free -m
+   73  df -h
+   74  sudo usermod -aG sudo mentor sudo
+   75  sudo usermod -aG sudo mentor
+   76  su -mentor
+   77  su - mentor
+   78  logout
+   79  exit
+   80  sudo su -
+   81  virtualbox
+   82  ls
+   83  cd
+   84  ls
+   85  mkdir VirtualMachines
+   86  pwd
+   87  ls
+   88  df -h
+   89  sudo dpkg -i CiscoPacketTracer_811_Ubuntu_64bit.deb 
+   90  sudo su -
+   91  vagrant 
+   92  cd
+   93  clear
+   94  ls
+   95  mkdir Course
+   96  cd Course/
+   97  ls
+   98  mkdir Course1
+   99  mkdir Course2
+  100  mkdir Course3
+  101  mkdir Course4
+  102  cd Course
+  103  cd Course1
+  104  ssh-keygen 
+  105  cat /home/ubuntu/.ssh/id_rsa.pub
+  106  mkdir sprint2
+  107  cd sprint2/
+  108  git clone ssh://git@myrepos.stackroute.com:2222/gps-cloud-it-engineer/gps-cloud-it-engineer-boilerplates/system-administration-1/practice_installing_upgrading_applications.git
+  109  ls
+  110  cd ..
+  111  mkdir sprint3
+  112  cd sprint
+  113  cd sprint3
+  114  git clone ssh://git@myrepos.stackroute.com:2222/gps-cloud-it-engineer/gps-cloud-it-engineer-boilerplates/system-administration-1/practice_sysadmin1_linux_services.git
+  115  cd ..
+  116  ls
+  117  mkdir sprint3
+  118  mkdir sprint4
+  119  cd sprint4
+  120  git clone ssh://git@myrepos.stackroute.com:2222/gps-cloud-it-engineer/gps-cloud-it-engineer-boilerplates/system-administration-1/systemadmin-1.git
+  121  ls
+  122  cd ..
+  123  ls
+  124  mkdir sprint5
+  125  cd sprint
+  126  cd sprint5
+  127  git clone ssh://git@myrepos.stackroute.com:2222/gps-cloud-it-engineer/gps-cloud-it-engineer-boilerplates/system-administration-1/practice_sysadmin1_sprint5.git
+  128  cd ..
+  129  mkdir sprint6
+  130  cd sprint6
+  131  ls
+  132  git clone ssh://git@myrepos.stackroute.com:2222/gps-cloud-it-engineer/gps-cloud-it-engineer-boilerplates/system-administration-1/practice_sysadmin1_sprint6.git
+  133  cd
+  134  clear
+  135  sudo dpkg -i code_1.65.2-1646927742_amd64.deb 
+  136  sudo su -
+  137  ls
+  138  sudo dpkg -i CiscoPacketTracer_811_Ubuntu_64bit.deb 
+  139  cd
+  140  ls
+  141  sudo su -
+  142  ls
+  143  cd Course/
+  144  ls
+  145  cd Course
+  146  cd Course1
+  147  ls
+  148  cd sprint2
+  149  ls
+  150  cd practice_installing_upgrading_applications/
+  151  ls
+  152  cd exercise-1
+  153  ls
+  154  vagrant up
+  155  df- h
+  156  df -h
+  157  clear
+  158  md5sum Vagrantfile 
+  159  ls
+  160  cd Course/
+  161  ls
+  162  cd Course1
+  163  ls
+  164  cd sprint4
+  165  ls
+  166  cd systemadmin-1/
+  167  ls
+  168  cd Exercise-1
+  169  ls
+  170  vagrant up
+  171  vagrant ssh
+  172  cd Course/Course1/sprint1/
+  173  cd Course/Course1/sprint2
+  174  ls
+  175  cd practice_installing_upgrading_applications/
+  176  ls
+  177  cd exercise-1
+  178  ls
+  179  vagrant up
+  180  cd ..
+  181  ls
+  182  cd ..
+  183  ls
+  184  ls
+  185  cd Course/Course1/sprint4/systemadmin-1/
+  186  ls
+  187  cd Exercise-1
+  188  vagrant up
+  189  vagrant reload
+  190  cd /home/ubuntu/iso\ images/
+  191  ls
+  192  df -h
+  193  cd
+  194  ls
+  195  cd iso\ images/
+  196  ls
+  197  ccd
+  198  cd
+  199  ls
+  200  cd iso\ images/
+  201  pwd
+  202  cd
+  203  cd Downloads/
+  204  ls
+  205  cp *.* /home/ubuntu/iso images
+  206  cp *.* /home/ubuntu/iso\ images/
+  207  ls
+  208  rm *.*
+  209  ls
+  210  cat Hashes 
+  211  cp Hashes /home/ubuntu/iso\ images/
+  212  cd /home/ubuntu/iso\ images/
+  213  ls
+  214  cd
+  215  cd Downloads/
+  216  ls
+  217  rm *
+  218  ls
+  219  exit
+  220  df -h
+  221  ls
+  222  cd Course/
+  223  ls
+  224  ls Course2
+  225  cd Course1
+  226  ls
+  227  ls sprint2
+  228  ls
+  229  cd sprint2
+  230  ls
+  231  cd practice_installing_upgrading_applications/
+  232  ls
+  233  cd exercise-1
+  234  ls
+  235  df -h
+  236  cd ~
+  237  sudo apt-get update
+  238  sudo apt-get install firefox
+  239  sudo apt --fix-broken install
+  240  sudo apt-get install firefox
+  241  sudo apt-get autoremove
+  242  clear
+  243  df -h
+  244  ls
+  245  cd iso\ images/
+  246  ls
+  247  md5sum CentOS-Stream-8-x86_64-20220310-dvd1.iso
+  248  clear
+  249  ls
+  250  md5sum CentOS-Stream-8-x86_64-20220310-dvd1.iso
+  251  cd iso\ images/
+  252  ls
+  253  md5sum debian-edu-11.2.0-amd64-netinst.iso
+  254  md5sum debian-edu-11.2-amd64-netinst.iso
+  255  clear
+  256  md5sum CentOS-Stream-8-x86_64-20220310-dvd1.iso 
+  257  ls
+  258  cd iso\ images/
+  259  ls
+  260  md5sum  ubuntu-18.04.6-desktop-amd64.iso
+  261  sha256sum  ubunt
+  262  md5sum  ubuntu-20.04.4-desktop-amd64.iso
+  263  sha256sum ubuntu-20.04.4-desktop-amd64.iso'
+  264  clear
+  265  sha256sum ubuntu-20.04.4-desktop-amd64.iso
+  266  md5sum ubuntu-20.04.4-desktop-amd64.iso
+  267  ls
+  268  clear
+  269  ls
+  270  md5sum Fedora-Server-dvd-x86_64-35-1.2.iso 
+  271  md5sum kali-linux-2022.1-installer-amd64.iso
+  272  md5sum CentOS-Stream-8-x86_64-20220310-dvd1.iso
+  273  clear
+  274  md5sum CentOS-Stream-8-x86_64-20220310-dvd1.iso
+  275  df -h
+  276  cd /var/log
+  277  ls
+  278  sudo rm -rf *.gz
+  279  sudo rm -rf *.1
+  280  ls
+  281  sudo su
+  282  ls
+  283  vim xrdp.ini 
+  284  sudo vim xrdp.ini 
+  285  cd
+  286  cp niitfinal.bmp /usr/local/share/xrdp/
+  287  sudo cp niitfinal.bmp /usr/local/share/xrdp/
+  288  cd
+  289  cd /usr/local/share/xrdp/
+  290  ls
+  291  sudo mkdir xrdp
+  292  sudo vim xrdp.ini 
+  293  ls
+  294  sudo mv niitfinal.bmp niitfinalold.bmp
+  295  ls
+  296  sudo mv 'niitfinal(1).bmp' niitfinal.bmp
+  297  ls
+  298  sudo cp /usr/local/share/xrdp/
+  299  sudo cp -r  /usr/local/share/xrdp/
+  300  ls
+  301  sudo cp niitfinal.bmp /usr/local/share/xrdp/
+  302  ls
+  303  exit
+  304  ls
+  305  sudo rm -rf niitfinal.bmp 
+  306  ls
+  307  sudo mv niitfinalold.bmp niitfinal.bmp 
+  308  ls
+  309  cd
+  310  cd /etc/xrdp/
+  311  vim xrdp.ini 
+  312  exit
+  313  sudo vim xrdp.ini
+  314  ls
+  315  mv niitfinal.bmp niitfinalold.bmp 
+  316  sudo mv niitfinal.bmp niitfinalold.bmp 
+  317  cd 
+  318  ls
+  319  cd dowloads
+  320  cd Downloads/
+  321  ls
+  322  rm -rf niitfinalold.bmp
+  323  ls
+  324  cd
+  325  clear
+  326  du -h | grep G
+  327  cd xrdp
+  328  ls
+  329  sudo vim xrdp.ini
+  330  du -h | grep GB
+  331  du -h | grep G
+  332  cd
+  333  du -h | grep GB
+  334  du -h | grep G
+  335  clear
+  336  cd /var/log
+  337  ls
+  338  cd
+  339  du -h | grep G
+  340  top
+  341  sudo df -h
+  342  sudo du -h / |grep G
+  343  cd /var/log
+  344  ls
+  345  sudo docker ps
+  346  cd 
+  347  cd Downloads/
+  348  ls
+  349  df -h
+  350  clear
+  351  cd ~
+  352  cd /root/
+  353  sudo du -h /root/
+  354  clear
+  355  sudo apt-get update
+  356  clear
+  357  sudo apt-get install google-chrome-stable
+  358  cd Downloads/
+  359  ls
+  360  clear
+  361  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  362  clear
+  363  duso rm google-chrome-stable_current_amd64.deb 
+  364  sudo rm google-chrome-stable_current_amd64.deb 
+  365  clear
+  366  cd ~
+  367  SUDO APT-GET UPDATE
+  368  sudo apt-get update
+  369  sudo apt-get autoremove
+  370  sudo apt-get autoclean
+  371  clear
+  372  df -h
+  373  cd /etc/
+  374  ls
+  375  sudo su
+  376  df -h
+  377  sudo rm -rf /etc/npsrv.conf
+  378  sudo rm -rf /var/log/npsrv.log
+  379  clear
+  380  sudo cloud-init clean
+  381  Sudo cloud –init clean
+  382  sudo cloud–init clean
+  383  sudo cloud-init clean
+  384  python -version
+  385  python
+  386  python3
+  387  vi ~/.bashrc
+  388  source ~/.bashrc 
+  389  python3
+  390  python
+  391  sudo cloud-init clean
+  392  cat /etc/os-release
+  393  systemctl status xrdp
+  394  cd /etc/
+  395  ll
+  396  cd ..
+  397  ls
+  398  cd /home/
+  399  cd ~
+  400  cd~
+  401  sudo wget https://s3.amazonaws.com/dlsw.nuvepro.com/scripts/AlertService/setupidletask.sh
+  402  sudo setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  403  sudo setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  404  ls
+  405  ./setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  406  sudo ./setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  407  sudo setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,12'
+  408  sudo /tmp/np/setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,12'
+  409  sudo setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  410  ls
+  411  ll
+  412  sudo chmod +x setupidletask.sh 
+  413  sudo setupidletask.sh 'https://nuvelink.nuvepro.com:443/nuvelink/res' '5d5e-4896-8ea9-a4dacc9668e8' '15,30,60,120'
+  414  ls
+  415  pwd
+  416  ls
+  417  sudo su
+  418  sudo tail /var/log/npsrv.log
+  419  sudo su
+  420  cd /var/log/
+  421  ls
+  422  cat npsrv.log 
+  423  clear
+  424  cd /var/log/
+  425  cat /var/log/npsrv.log 
+  426  sudo apt-get install python
+  427  python
+  428  python -v
+  429  python -version
+  430  python -v
+  431  vi ~/.bashrc
+  432  source ~/.bashrc 
+  433  python
+  434  python -v
+  435  sudo remove npsrv
+  436  sudo su
+  437  sudo cloud-init clean
+  438  xprintidle
+  439  sudo su
+  440  sudo cloud-init clean
+  441  cd /etc/
+  442  ls
+  443  sudo cloud-init clean
+  444  cd
+  445  ls
+  446  sudo su
+  447  cd
+  448  ls
+  449  vi .bashrc
+  450  vi freespace.sh
+  451  cd
+  452  ls
+  453  vi freespace.sh
+  454  sh freespace.sh 
+  455  ls -a
+  456  vi .bashrc
+  457  ls
+  458  cd
+  459  ls
+  460  cd 'System util'
+  461  ls
+  462  pwd
+  463  cd
+  464  ls
+  465  cd Systemutil
+  466  pwd
+  467  ls
+  468  vi freespace.sh 
+  469  pwd
+  470  vi freespace.sh 
+  471  cd
+  472  ls -a
+  473  vi .bashrc
+  474  cd
+  475  sudo su
+  476  cd
+  477  sudo su
+  478  sudo vi  /etc/polkit-1/localauthority.conf.d/02-allow-colord.conf
+  479  sudo polkit.addRule(function(action, subject) {
+  480  sudo apt remove npsrv 
+  481  sudo rm -rf /etc/npsrv.conf 
+  482  sudo rm -rf /var/log/npsrv.log 
+  483  sudo apt remove npsrv 
+  484  cd
+  485  ls
+  486  cd Systemutil
+  487  ls
+  488  vi freespace.sh 
+  489  sh freespace.sh 
+  490  vi freespace.sh 
+  491  sh freespace.sh 
+  492  vi freespace.sh 
+  493  sh freespace.sh 
+  494  vi freespace.sh 
+  495  sh freespace.sh 
+  496  cd
+  497  sudo su
+  498  cd
+  499  ls
+  500  cd Systemutil
+  501  ls
+  502  vi freespace.sh 
+  503  sh freespace.sh 
+  504  df -h
+  505  cd ~
+  506  sudo apt-get update
+  507  clear
+  508  sudo apt-get install firefox
+  509  clear
+  510  ls /var/crash
+  511  sudo rm /var/crash/*
+  512  sudoedit /etc/default/apport
+  513  sudo systemctl restart apport
+  514  sudo reboot
+  515  cat ~/.ssh/id_rsa.pub
+  516  clear
+  517  ssh-keygen
+  518  cat ~/.ssh/id_rsa.pub
+  519  clear
+  520  cd Desktop
+  521  mkdir repos
+  522  cd repos
+  523  git clone ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/test-project.git
+  524  ls
+  525  cd test-project
+  526  ls
+  527  git status
+  528  clear
+  529  cd
+  530  clear
+  531  ls
+  532  git clone ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/pc1-working-with-linux.git
+  533  ls
+  534  cd repos
+  535  ls
+  536  cd Desktop
+  537  ls
+  538  cd repos
+  539  ls
+  540  git clone ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/pc1-working-with-linux.git
+  541  ls
+  542  cd pc1-working-with-linux
+  543  clear
+  544  date
+  545  ls
+  546  pwd
+  547  touch
+  548  touch myFile
+  549  ls
+  550  cat myFile Jaytee
+  551  cat myFile
+  552  ls
+  553  man nano
+  554  history
+  555  echo $0
+  556  clear
+  557  mkdir Project_Data​
+  558  ls
+  559  cd Project_Data
+  560  cd Project_Data​
+  561  touch day_vise_activity_log.txt
+  562  touch week_vise_activity_log.txt
+  563  touch temp_log.txt​
+  564  ls
+  565  pwd
+  566  echo $howdy Ya'll >> day_vise_activity_log.txt
+  567  what up everybody???
+  568  andthats all
+  569  nano day_vise_activity_log.txt 
+  570  ls
+  571  cd Desktop
+  572  cd repos
+  573  ls
+  574  unlink test-project
+  575  rm -d text-project
+  576  rm -d test-project
+  577  rm -r test-project
+  578  rm -rf test-project
+  579  ls
+  580  cd pc1-working-with-linux
+  581  ls
+  582  cd Project_Data
+  583  cd Project_Data​
+  584  ls
+  585  clear
+  586  ls
+  587  cat day_vise_activity_log.txt
+  588  cat day_vise_activity_log.txt Name: Jaytee
+  589  cat day_vise_activity_log.txt
+  590  x=`echo "Howdy ya'll"; cat day_vise_activity_log.txt`
+  591  echo "$x" > day_vise_activity_log.txt
+  592  nano day_vise_activity_log.txt
+  593  x=`echo "I Love Linux (yeah right)"; cat week_vise_activity_log.txt`
+  594  echo "$x" > week_vise_activity_log.txt
+  595  nano week_vise_activity_log.txt
+  596  git commit -M 'assignment finished didnt delete .log'
+  597  git commit -a 'assignment finished didnt delete .log'
+  598  git commit  'assignment finished didnt delete .log'
+  599  git add .
+  600  git commit -a "first commit practice 1"
+  601  git commit  "first commit practice 1"
+  602  git remote add orgin master
+  603  git remote add orgin ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/pc1-working-with-linux.git
+  604  git remote add orgin master
+  605  git push orgin master
+  606  git push orgin ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/pc1-working-with-linux.git
+  607  ls
+  608  git status
+  609  git add .
+  610  git commit -a -m "assignment complete"
+  611  git commit -a -m jaytee_thomas.email "jt.aws.cloud@protonmail.com"
+  612  git config --global jaytee_thomas.email "jt.aws.cloud@protonmail.com"
+  613  git config --global jaytee_thomas.email jt.aws.cloud@gmail.com
+  614  git config --global user.email jt.aws.cloud@protonmail.com
+  615  git config --global user.name jaytee_thomas
+  616  git commit -a -m "assignment complete"
+  617  git push origin master
+  618  rm temp_log.txt
+  619  unlink temp_log.txt
+  620  ls
+  621  clear
+  622  ls
+  623  unlink temp_log.txt​
+  624  git add .
+  625  git commit -a -m "log file deleted"
+  626  git add .
+  627  git status
+  628  git push origin master
+  629  cd ../
+  630  cd ..
+  631  git clone ssh://git@myrepos.stackroute.com:2222/jaytee_thomas/mc1-working-with-linux.git
+  632  ls
+  633  cd mc1-working-with-linux
+  634  mkdir accounts-dept loan-dept customer-care
+  635  ls
+  636  cd accounts-dept
+  637  mkdir savings-account ​
+  638  mkdir current-account​
+  639  ls
+  640  cd ..
+  641  cd loan-dept
+  642  mkdir jewel-loan​
+  643  mkdir personal-loan
+  644  ls
+  645  cd ..
+  646  cd customer-care
+  647  mkdir service-request
+  648  ls
+  649  cd service-request
+  650  touch transaction-log.txt
+  651  ls
+  652  cd .. ..
+  653  cd ..
+  654  ls
+  655  mv customer-care customer-support
+  656  ls
+  657  clear
+  658  ls
+  659  cd accounts-dept
+  660  ls
+  661  cd current-account
+  662  ls
+  663  cd current-account
+  664  cd current-account​
+  665  touch transaction-log.txt
+  666  ls
+  667  cd ..
+  668  cd savings-account
+  669  touch transaction-log.txt
+  670  ls
+  671  cd ..
+  672  cd loan-dept
+  673  ls
+  674  cd jewel-loan
+  675  cd jewel-loan​
+  676  ls
+  677  touch transaction-log.txt
+  678  cd ..
+  679  cd personal-loan
+  680  touch transaction-log.txt
+  681  cd ..
+  682  cd customer-care
+  683  clear
+  684  ls
+  685  cd customer-support
+  686  ls
+  687  cd service-request
+  688  ls
+  689  cd ..
+  690  ls -l
+  691  git commit -a -m "assignment complete"
+  692  git add .
+  693  git commit -a -m "assignment complete"
+  694  git push origin master
+  695  clear
+  696  code .
+  697  cd ..
+  698  ls
+  699  cd pc1-working-with-linux
+  700  clear
+  701  date
+  702  ls
+  703  pwd
+  704  touch testFile
+  705  cat
+  706  man nano
+  707  history
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ echo $0
+bash
+ubuntu@NIIT-GPS-Linux:~/Desktop/repos/pc1-working-with-linux$ 
